@@ -1,0 +1,46 @@
+@media (min-width: 320px) and (max-width: 575.98px){
+#product .title h2{
+text-align: center;
+}
+#product .main{
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+#product .main .main-item{
+width: 50%;
+}
+#product .main .main-item .details a{
+font-size: 11px;
+}
+#product .item .icon a p {
+font-size: 5px;
+}
+}
+
+@media (min-width: 576px) and (max-width: 768px){
+#product .item .icon a p {
+font-size: 5px;
+}
+}
+
+
+@media (min-width: 769px) and (max-width: 992px){
+#product .item .icon a p {
+font-size: 5px;
+}
+}
+
+
+@media (min-width: 1201px) and (max-width: 1320px){
+    #product .item .icon a p {
+        font-size: 7px;
+        }
+}
+
+
+@media (min-width: 280px) and (max-width: 319px){
+    #product .title h2{
+        text-align: center;
+        }
+}
