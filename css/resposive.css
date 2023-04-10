@@ -1,4 +1,11 @@
 @media (min-width: 320px) and (max-width: 575.98px){
+
+#toper .main .logo a {
+margin-left: 4px;
+}
+#toper .main a {
+font-size: 10px;
+}
 #product .title h2{
 text-align: center;
 }
@@ -16,12 +23,21 @@ font-size: 11px;
 #product .item .icon a p {
 font-size: 5px;
 }
+#footer .facebook-page{
+    margin-top: 10px;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 768px){
 #product .item .icon a p {
 font-size: 5px;
 }
+#toper .main .logo a {
+margin-left: 238px;
+}
+#footer .facebook-page{
+    margin-top: 10px;
+    }
 }
 
 
@@ -29,6 +45,15 @@ font-size: 5px;
 #product .item .icon a p {
 font-size: 5px;
 }
+#toper .main .logo a {
+margin-left: 226px;
+}
+#navbar .registration .registration-icon {
+margin-left: 12px;
+}
+#footer .facebook-page{
+    margin-top: 10px;
+    }
 }
 
 
@@ -40,7 +65,16 @@ font-size: 5px;
 
 
 @media (min-width: 280px) and (max-width: 319px){
-    #product .title h2{
-        text-align: center;
-        }
+#product .title h2{
+text-align: center;
+}
+#toper .main a {
+font-size: 10px;
+}
+#toper .main .logo a {
+margin-left: -74px;
+}
+#footer .facebook-page{
+margin-top: 10px;
+}
 }

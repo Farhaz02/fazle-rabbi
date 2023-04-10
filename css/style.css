@@ -1,3 +1,105 @@
+/* =======toper part start======= */
+#toper{
+padding: 10px 0;
+border-bottom: 2px solid black;
+}
+#toper .main{
+display: flex;
+}
+#toper .main a{
+margin-left: 10px;
+color: #444; 
+font-size: 16px;
+margin-top: 4px;
+font-weight: 700;
+text-decoration: none;
+}
+#toper .main a i{
+margin-left: 5px;
+}
+#toper .main .logo a{
+font-size: 18px;
+font-weight: 700;
+margin-left: 300px;
+}
+
+/* =======toper part end========== */
+
+/* ========navbar part start======== */
+#navbar{
+padding: 20px 0;
+background: transparent !important;
+}
+#navbar .registration{
+width: 50px !important;
+}
+#navbar .registration .registration-icon{
+margin-left: 40px;
+border-radius: 50% !important;
+}
+#navbar .registration .sign-up{
+text-align: center;
+/* position: fixed; */
+transition: .4s;
+}
+#navbar .registration .sign-up li button{
+transition: .4s;
+}
+#navbar .registration .sign-up li button:hover{
+color: aqua;
+}
+#navbar .registration .sign-up::after{
+position: absolute;
+content: '';
+height: 2px;
+width: 70%;
+opacity: .6;
+background-color: #444;
+top: 50%;
+left: 15%;
+}
+#navbar .product-btn{
+width: 30%;
+display: flex;
+margin-left: 50px;
+}
+#navbar .product-btn .btn-1 p{
+text-align: left;
+font-size: 12px;
+}
+#navbar .product-btn .btn-1 p span{
+display:block;
+font-size: 8px;
+}
+#navbar .product-btn button{
+display: flex;
+background-color: rgb(123, 123, 230);
+border: none;
+margin-left: 15px;
+padding: 0 5px;
+height: 40px;
+}
+#navbar .product-btn button i{
+margin-top: 15px;
+margin-left: 10px;
+font-size: 20px;
+}
+#navbar .product-btn .btn-2 p{
+text-align: left;
+font-size: 12px;
+}
+#navbar .product-btn .btn-2 p span{
+display:block;
+font-size: 8px;
+}
+#navbar .form .search-bar{
+border: 1px solid black;
+}
+#navbar .form .search-bar:focus{
+border-color: #444;
+}
+/* =========navbar part end========= */
+/* =======product part start====== */
 #product .title h2{
 font-size: 25px;
 padding: 50px 0;
@@ -92,3 +194,81 @@ font-weight: 400;
 font-size: 12px;
 margin-left: 5px;
 }
+/* ======product part end======= */
+/* =========footer part start====== */
+#footer{
+height: 400px;
+background-color: #ffffff;
+padding: 20px 0;
+margin-top: 40px;
+overflow: hidden;
+}
+#footer .payment{
+display: flex;
+padding: 10px;
+}
+#footer .payment .details{
+width: 56px;
+}
+#footer .payment .img{
+margin-left: 0px;
+}
+#footer .payment .img img{
+width: 100%;
+}
+body{
+background-color: #F2F4F8;
+}
+#footer .customer-service h2{
+font-size: 20px;
+font-weight: 700;
+margin-left: 40px;
+}
+#footer .customer-service .contact-us{
+display: flex;
+align-items: center;
+margin-left: 40px;
+margin-top: 20px;
+position: relative;
+}
+#footer .customer-service .contact-us::before{
+position: absolute;
+background-color: rgb(46, 26, 26);
+content: '';
+height: 1px;
+width: 80%;
+bottom: -10px;
+left: 0;
+}
+#footer .customer-service .contact-us i{
+font-size: 18px;
+font-weight: 700;
+margin-top: 5px;
+color: blue;
+}
+#footer .customer-service .contact-us a{
+margin-left: 10px;
+text-decoration: none;
+transition: .4s;
+}
+#footer .customer-service .contact-us a:hover{
+text-decoration: underline;
+}
+#footer .facebook-page h2{
+font-size: 20px;
+font-weight: 700;
+margin-left: 0px;
+}
+#footer .facebook-page .img img{
+width: 100%;
+}
+#footer .contact h2{
+font-size: 20px;
+font-weight: 700;
+margin-left: 0px;
+}
+#footer .contact p{
+margin-top: 40px;
+
+    }
+/* =========footer part end======== */
