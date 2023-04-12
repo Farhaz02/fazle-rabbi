@@ -1,103 +1,148 @@
 /* =======toper part start======= */
+/* ==========topbar css start========== */
 #toper{
-padding: 10px 0;
-border-bottom: 2px solid black;
-}
-#toper .main{
-display: flex;
-}
-#toper .main a{
-margin-left: 10px;
-color: #444; 
-font-size: 16px;
-margin-top: 4px;
-font-weight: 700;
-text-decoration: none;
-}
-#toper .main a i{
-margin-left: 5px;
-}
-#toper .main .logo a{
-font-size: 18px;
-font-weight: 700;
-margin-left: 300px;
-}
-
+    padding: 10px 0;
+    border-bottom: 2px solid black;
+    }
+    #toper .main{
+    display: flex;
+    }
+    #toper .main a{
+     margin-left: 10px;
+    color: #444; 
+    font-size: 16px;
+    margin-top: 4px;
+    font-weight: 700;
+    text-decoration: none;
+    }
+    #toper .main a i{
+    margin-left: 5px;
+    }
+    #toper .main .logo a{
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 300px;
+    }
+    #toper .main .icon{
+    margin-left: 278px;
+    }
+    #toper .main .icon a i{
+    font-size: 30px;
+    }   
+    #toper .main .icon .frist{
+    color: blue;
+    } 
+    #toper .main .icon .second{
+    color: rgb(116, 116, 238);
+    }
+    #toper .main .icon .three{
+    color: rgb(237, 84, 84);
+    }
+    #toper .main .icon .four{
+    color: rgb(147, 147, 229);
+    }
+    #toper .main .icon .five{
+    color: darkblue;
+    }
 /* =======toper part end========== */
 
 /* ========navbar part start======== */
-#navbar{
-padding: 20px 0;
-background: transparent !important;
-}
-#navbar .registration{
-width: 50px !important;
-}
-#navbar .registration .registration-icon{
-margin-left: 40px;
-border-radius: 50% !important;
-}
-#navbar .registration .sign-up{
-text-align: center;
-/* position: fixed; */
-transition: .4s;
-}
-#navbar .registration .sign-up li button{
-transition: .4s;
-}
-#navbar .registration .sign-up li button:hover{
-color: aqua;
-}
-#navbar .registration .sign-up::after{
-position: absolute;
-content: '';
-height: 2px;
-width: 70%;
-opacity: .6;
-background-color: #444;
-top: 50%;
-left: 15%;
-}
-#navbar .product-btn{
-width: 30%;
-display: flex;
-margin-left: 50px;
-}
-#navbar .product-btn .btn-1 p{
-text-align: left;
-font-size: 12px;
-}
-#navbar .product-btn .btn-1 p span{
-display:block;
-font-size: 8px;
-}
-#navbar .product-btn button{
-display: flex;
-background-color: rgb(123, 123, 230);
-border: none;
-margin-left: 15px;
-padding: 0 5px;
-height: 40px;
-}
-#navbar .product-btn button i{
-margin-top: 15px;
-margin-left: 10px;
-font-size: 20px;
-}
-#navbar .product-btn .btn-2 p{
-text-align: left;
-font-size: 12px;
-}
-#navbar .product-btn .btn-2 p span{
-display:block;
-font-size: 8px;
-}
-#navbar .form .search-bar{
-border: 1px solid black;
-}
-#navbar .form .search-bar:focus{
-border-color: #444;
-}
+#navbar-1{
+    padding: 20px 0;
+    } 
+    #navbar-1 .search{
+    /* display: none; */
+    }
+    #navbar-1 form{
+    width: 100%;
+    }
+    #navbar-1 form input{
+    width: 95%;
+    padding: 8px 10px;
+    border: 1px solid rgb(74, 33, 33);
+    background-color: #fff;
+    border-radius: 5px 0px 0 5px;
+    }
+    #navbar-1 form button{
+    border: none;
+    padding: 8px 17px;
+    background-color: black;
+    border-radius: 0px 5px 5px 0px;
+    color: #fff;
+    }
+    #navbar-1 .logo{
+    width: 15%;
+    }
+    #navbar-1 .logo img{
+    width: 100%;
+    }
+    #navbar-1 .registration ul{
+    background-color: #fff;
+    }
+    #navbar-1 ul{
+    width: 100%;
+    background-color: black;
+    margin-top: 0px;
+    }
+    #navbar-1 ul li a{
+    color: #fff;
+    }
+    #navbar-1 .find{
+    width: 100px;
+    }
+    #navbar-1 .registration{
+    text-align: right;
+    margin-top: -4px;
+    }
+    #navbar-1 .drop{
+        margin-top: 20px;
+         background-color: black;
+    }
+    #navbar-1 .registration button{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 65px;
+    margin-top: 6px;
+    }
+    #navbar-1 .product-btn{
+    width: 24%;
+    display: flex;
+    margin-right: 10px;
+    }
+    #navbar-1 .product-btn .btn-1 p{
+    text-align: left;
+    font-size: 12px;
+    }
+    #navbar-1 .product-btn .btn-1 p span{
+    display:block;
+    font-size: 8px;
+    }
+    #navbar-1 .product-btn button{
+    display: flex;
+    background-color: rgb(123, 123, 230);
+    border: none;
+    margin-left: 15px;
+    padding: 0 5px;
+    height: 40px;
+    }
+    #navbar-1 .product-btn button i{
+    margin-top: 15px;
+    margin-left: 10px;
+    font-size: 20px;
+    }
+    #navbar-1 .product-btn .btn-2 p{
+    text-align: left;
+    font-size: 12px;
+    }
+    #navbar-1 .product-btn .btn-2 p span{
+    display:block;
+    font-size: 8px;
+    }
+
 /* =========navbar part end========= */
 /* =======product part start====== */
 #product .title h2{
